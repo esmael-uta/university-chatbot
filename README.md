@@ -13,21 +13,22 @@ A university chatbot built for an NLP course project using Flask, spaCy, and a f
    cd university-chatbot
 
    ## Project Structure
-university-chatbot/
-├── .venv/ # Virtual environment (created manually)
-├── backend/
-│ ├── data/
-│ │ └── mydata.txt # Provided dataset
-│ ├── database/
-│ │ └── data.csv # Processed dataset
-│ ├── model/ # Empty (no model training with spaCy)
-│ ├── nlp/
-│ │ └── nlp.py # NLP logic with spaCy
-│ └── app.py # Flask server
-├── frontend/
-│ ├── index.html # Chat UI
-│ ├── script.js # Front-end logic
-│ └── styles.css # Styling
-├── .gitignore # Git ignore file
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+```markdown
+- university-chatbot/
+  - `.venv/`
+  - backend/
+    - data/
+      - `mydata.txt`
+    - database/
+      - `data.csv`
+    - model/
+    - nlp/
+      - `nlp.py`
+    - `app.py`
+  - frontend/
+    - `index.html`
+    - `script.js`
+    - `styles.css`
+  - `.gitignore`
+  - `README.md`
+  - `requirements.txt`
